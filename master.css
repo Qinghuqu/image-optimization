@@ -1,0 +1,69 @@
+body
+{
+  margin-top: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: top;
+
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+picture
+{
+  position: relative;
+  z-index: -1;
+}
+
+p
+{
+  margin-top: 0;
+  margin-bottom: 6rem;
+}
+
+
+.t-shirt-container
+{
+  box-shadow: 2px 2px 5px 3px gray;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  background-color: white;
+}
+
+.t-shirt-a
+{
+  position: relative;
+  z-index: 0;
+  transform: rotate(-6deg);
+}
+
+.t-shirt-b
+{
+  position: relative;
+  z-index: 1;
+  transform: rotate(3deg);
+}
+
+.t-shirt-c
+{
+  position: relative;
+  z-index: 2;
+  transform: rotate(8deg);
+}
+
+
+@media screen and (max-width: 479px)
+{
+  body
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p
+  {
+    margin-bottom: 3rem;
+  }
+}
