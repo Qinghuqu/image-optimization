@@ -19,7 +19,6 @@ picture
 p
 {
   margin-top: 0;
-  margin-bottom: 6rem;
 }
 
 
@@ -30,6 +29,9 @@ p
   padding-right: 4px;
   text-align: center;
   background-color: white;
+  width: 28.125rem;
+  height: 600px;
+  margin: 0px 5px;
 }
 
 .t-shirt-a
@@ -62,8 +64,11 @@ p
     align-items: center;
   }
 
-  p
+  .t-shirt-container
   {
-    margin-bottom: 3rem;
+    width: 200px;
+    min-height: 300px;
+    overflow: hidden;
   }
+
 }
